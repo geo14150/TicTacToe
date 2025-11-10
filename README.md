@@ -43,3 +43,9 @@ The App component manages the central game state (gameTurns and players).
 Utility functions (devireActivePlayer, devireGameBoard, deriveWinner) handle complex state derivations outside the main component body for clean logic.
 
 Components like Player, GameBoard, Log, and GameOver (imported from local modules, though not included here) handle specific UI parts and interactions.
+You need to install all the necessary libraries and tools (React, Vite, etc.) defined in the package.json file. (npm install)
+
+For React/Vite applications, you do not open index.html directly. You must start the Vite development server, which handles JSX compilation and module loading.
+Execute the dev script defined in your package.json: npm run dev
+
+Open your web browser and navigate to the Local address shown, typically http://localhost:5173/.
