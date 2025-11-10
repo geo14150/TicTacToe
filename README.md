@@ -48,4 +48,4 @@ You need to install all the necessary libraries and tools (React, Vite, etc.) de
 For React/Vite applications, you do not open index.html directly. You must start the Vite development server, which handles JSX compilation and module loading.
 Execute the dev script defined in your package.json: npm run dev
 
-Open your web browser and navigate to the Local address shown, typically http://localhost:5173/.
+Open your web browser and navigate to the Local address shown.
